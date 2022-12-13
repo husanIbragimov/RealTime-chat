@@ -1,4 +1,4 @@
 from django.contrib import admin
+from .models import ChatMessage
 
-# Create your admin here.
-
+admin.site.register(ChatMessage)
