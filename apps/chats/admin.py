@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import Chat
 
-# Create your admin here.
+admin.site.register(Chat)
