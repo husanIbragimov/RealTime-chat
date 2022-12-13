@@ -8,4 +8,4 @@ class Chat(models.Model):
         return self.room_name
 
     def get_messages(self):
-        pass
+        return self.messages.all()
